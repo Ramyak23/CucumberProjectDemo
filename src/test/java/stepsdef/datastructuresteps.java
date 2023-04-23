@@ -1,19 +1,14 @@
 package stepsdef;
 
-import java.io.IOException;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 import pageobject.datastructurepage;
 import utilities.DriverManager;
-//import utilities.LoggerLoad;
+import utilities.LoggerLoad;
 
 public class datastructuresteps {
 
@@ -24,7 +19,7 @@ public class datastructuresteps {
 	@Given("User clicks on Get Started button of Data Structures-Introduction tab")
 	public void user_clicks_on_button_of_data_structures_introduction_tab() {
 		System.out.println("Validating DataStructures Module");
-		//LoggerLoad.info("********Data Structures-Introduction********");
+		LoggerLoad.info("Automating Data Structures-Introduction");
 	    dsp.clickDSGetStartButn();
 	}
 
@@ -44,8 +39,9 @@ public class datastructuresteps {
 	}
 
 	@Then("Clicks Run button and gets the output")
-	public void clicks_run_button_and_gets_the_output()  {
+	public void clicks_run_button_and_gets_the_output() throws InterruptedException  {
 	    dsp.clickRunBtn();
+	    Thread.sleep(1000);
 	    driver.navigate().back();
 	  	}
 	
@@ -55,8 +51,9 @@ public class datastructuresteps {
 	}
 
 	@Then("Clicks Run button and gets the popup error message")
-	public void clicks_run_button_and_gets_the_popup_error_message() {
+	public void clicks_run_button_and_gets_the_popup_error_message() throws InterruptedException {
 		dsp.clickRunBtn();
+		Thread.sleep(1000);
 		//Handle Alerts 
 	    Alert alert = driver.switchTo().alert();
 		System.out.println(alert.getText());

@@ -30,4 +30,4 @@ Feature: Graph Feature
     Then User navigated to tryEditor page and enters the incorrect Python code 
           |pythoncode  | Hello Graph |
     And Clicks Run button and gets popup error message  
-   
+    Then User navigated to Stack module

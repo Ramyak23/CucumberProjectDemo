@@ -1,0 +1,60 @@
+['INFO ]2023-04-21 17:13:58,203(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-*****Opening DsAlgo Portal*****
+['INFO ]2023-04-21 17:13:58,209(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Home Page
+['INFO ]2023-04-21 17:14:03,012(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:07,333(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:10,439(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:13,588(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:16,705(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:19,846(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:22,900(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:24,932(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 17:14:27,037(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-21 17:14:30,322(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-21 17:14:30,350(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-21 17:14:33,575(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-21 17:14:33,602(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-21 17:14:36,977(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Successful
+['INFO ]2023-04-21 17:14:37,010(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Data Structures-Introduction
+['INFO ]2023-04-21 17:14:43,578(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Graph Page
+['INFO ]2023-04-21 17:14:53,419(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Stack Page
+['INFO ]2023-04-21 17:15:06,874(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Queue Page
+['INFO ]2023-04-21 17:15:24,133(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Linked List Page
+['INFO ]2023-04-21 17:15:54,061(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Tree Module
+['INFO ]2023-04-21 17:16:48,516(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Array module
+['INFO ]2023-04-21 18:14:41,983(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-*****Opening DsAlgo Portal*****
+['INFO ]2023-04-21 18:14:41,991(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Home Page
+['INFO ]2023-04-21 18:14:46,548(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:14:51,874(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:14:55,056(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:14:58,333(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:15:01,692(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:15:05,639(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:15:09,366(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:15:11,371(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating DsAlgo Register Page
+['INFO ]2023-04-21 18:15:13,456(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-21 18:15:16,891(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-21 18:15:16,913(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-21 18:15:20,130(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-21 18:15:20,156(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-21 18:15:23,563(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Successful
+['INFO ]2023-04-21 18:15:23,584(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Data Structures-Introduction
+['INFO ]2023-04-21 18:15:29,902(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Graph Page
+['INFO ]2023-04-21 18:15:40,031(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Stack Page
+['INFO ]2023-04-21 18:15:53,860(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Queue Page
+['INFO ]2023-04-21 18:16:11,316(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Linked List Page
+['INFO ]2023-04-21 18:16:41,410(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Automating Tree Module
+['INFO ]2023-04-21 18:17:36,087(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Array module
+['INFO ]2023-04-23 15:33:37,410(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-23 15:33:41,290(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-23 15:33:41,728(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-23 15:33:45,391(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-23 15:33:45,738(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-23 15:33:49,652(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Successful
+['INFO ]2023-04-23 15:33:49,768(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Array module
+['INFO ]2023-04-23 15:37:35,519(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-23 15:37:39,173(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-23 15:37:39,651(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-23 15:37:43,267(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Unsuccessful, Invalid Username and Password
+['INFO ]2023-04-23 15:37:43,646(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Login Page
+['INFO ]2023-04-23 15:37:47,650(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Login Successful
+['INFO ]2023-04-23 15:37:47,731(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Validating Array module

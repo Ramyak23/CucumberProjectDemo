@@ -25,7 +25,8 @@ public class graphpage {
     @FindBy(xpath="//div[2]/div/div[2]/a")WebElement btntryhere;
     @FindBy(xpath="//form[@id='answer_form']/div/div/div[1]/textarea")WebElement graphtxtarea;
 	@FindBy(xpath="//button[contains(text(),'Run')]")WebElement btnrun;
-	
+	@FindBy(xpath="//div[@id='navbarCollapse']/div[1]/div/a")WebElement dsMenu;
+	@FindBy(xpath="//div[@id='navbarCollapse']/div[1]/div/div/a[3]")WebElement selectStack;
 	
 	public void clickBtnSignin() {
 		btnSignin.click();
@@ -47,5 +48,9 @@ public class graphpage {
 	}
 	public void clickRunBtn() {
 		btnrun.click();
+	}
+	public void navigation() {
+		dsMenu.click();
+		selectStack.click();
 	}
 }

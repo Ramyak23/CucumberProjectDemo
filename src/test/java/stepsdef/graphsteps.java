@@ -1,16 +1,14 @@
 package stepsdef;
 
 import java.util.Map;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import pageobject.graphpage;
 import utilities.DriverManager;
-//import utilities.LoggerLoad;
+import utilities.LoggerLoad;
 
 public class graphsteps {
 
@@ -19,7 +17,7 @@ public class graphsteps {
 	 
 	@Given("User clicks on Get Started button of Graph in home page")
 	public void user_clicks_on_get_started_button_of_graph_in_home_page() {
-		//LoggerLoad.info("****Validating Graph Page****");
+		LoggerLoad.info("Validating Graph Page");
 		gp.clickGraphGetStartButn();
 	}
 
@@ -74,5 +72,8 @@ public class graphsteps {
 	    gp.clickGraphTryHereBtn();
 	}
 
-	
+	@Then("User navigated to Stack module")
+	public void User_navigated_to_Stack_module() {
+		gp.navigation();
+	}
 }

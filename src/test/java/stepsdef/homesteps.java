@@ -1,15 +1,15 @@
 package stepsdef;
 
-import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
-import io.cucumber.java.en.*;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import pageobject.homepage;
-import utilities.DriverManager;
 import utilities.ConfigFileReader;
+import utilities.DriverManager;
+import utilities.LoggerLoad;
 
 public class homesteps {
     	
@@ -18,6 +18,8 @@ public class homesteps {
 	 	
 	 @Given("The user on home page")
 	 public void the_user_on_home_page() {
+		 LoggerLoad.info("*****Opening DsAlgo Portal*****");
+		 LoggerLoad.info("Automating Home Page");
 		 driver.get(ConfigFileReader.launchWebsite("dsAlgoURL"));
 	 }
 	 @When("The user clicks on Get Started button of Data Structures without login")

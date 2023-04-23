@@ -3,21 +3,19 @@ package stepsdef;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 import pageobject.registerpage;
 import utilities.DriverManager;
 import utilities.ConfigFileReader;
 import utilities.ExcelReader;
-//import utilities.LoggerLoad;
+import utilities.LoggerLoad;
+
 
 public class registersteps {
 
@@ -26,9 +24,8 @@ public class registersteps {
 	
 	@Given("User navigates to Register page")
 	public void user_navigates_to_register_page() throws IOException {
-	   
-  	    System.out.println("Validating DsAlgo Register Page");
-  	    //LoggerLoad.info("****Validating DsAlgo Register Page****");
+		System.out.println("Validating DsAlgo Register Page");
+  	    LoggerLoad.info("Validating DsAlgo Register Page");
   	    rp.clickhomeregbtn();
 	}
 

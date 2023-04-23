@@ -1,19 +1,16 @@
 package stepsdef;
 
 import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageobject.homepage;
 import pageobject.loginpage;
+import utilities.ConfigFileReader;
 import utilities.DriverManager;
-
-//import utilities.LoggerLoad;
+import utilities.LoggerLoad;
 
 public class loginsteps {
 
@@ -22,9 +19,9 @@ public class loginsteps {
 	
 	@Given("User is already on home page")
 	public void user_is_already_on_home_page() throws IOException {
-	    
+		//driver.get(ConfigFileReader.launchWebsite("dsAlgoURL"));
 	    System.out.println("Validating Login Page");
-	    //LoggerLoad.info("****Validating Login Page****");
+	    LoggerLoad.info("Validating Login Page");
 	           
 	}
 
@@ -53,11 +50,11 @@ public class loginsteps {
 
 	@Then("User gets success message as you are logged in")
 	public void user_gets_success_message_you_are_logged_in() throws InterruptedException {
-		Thread.sleep(1000);
-		if(driver.findElement(By.xpath("//a[contains(text(),'Sign out')]")).isDisplayed()) {
+		   Thread.sleep(1000);
+		    if(driver.findElement(By.xpath("//a[contains(text(),'Sign out')]")).isDisplayed()) {
 	    	Assert.assertTrue(true);
 	    	System.out.println("User Login Passed");
-	    	//LoggerLoad.info("Login Successful");
+	    	LoggerLoad.info("Login Successful");
 	    }
 		else {
 	    	Assert.assertTrue(false);
@@ -69,7 +66,7 @@ public class loginsteps {
 		       Thread.sleep(1000);
 		       String actualwarnmsg=driver.findElement(By.xpath("//body/div[3]")).getText();
 			   Assert.assertTrue(actualwarnmsg.contains("Invalid Username and Password"));
-			   //LoggerLoad.info("Login Unsuccessful, Invalid Username and Password");
+			   LoggerLoad.info("Login Unsuccessful, Invalid Username and Password");
 			   System.out.println("User Login Failed");
 
 	}

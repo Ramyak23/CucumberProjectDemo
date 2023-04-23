@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 20 19:48:46 PDT 2023</td>
+<td>Started on:</td><td>Sun Apr 23 15:37:28 PDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>65 seconds (65495 ms)</td>
+<tr><td>Total time:</td><td>51 seconds (51085 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,31 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates Search the array page", "Array feature"</td>
+<td><div><pre>org.junit.ComparisonFailure: expected:&lt;[Registration]&gt; but was:&lt;[NumpyNinja]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepsdef.arraysteps.user_navigated_to_home_page(arraysteps.java:106)
+	at ✽.User navigated to home page(file:///C:/Users/Shoban/eclipse-workspace/cucumberproject/src/test/resources/features/array.feature:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1600591903", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1600591903'><pre>org.junit.ComparisonFailure: expected:&lt;[Registration]&gt; but was:&lt;[NumpyNinja]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepsdef.arraysteps.user_navigated_to_home_page(arraysteps.java:106)
+	at ✽.User navigated to home page(file:///C:/Users/Shoban/eclipse-workspace/cucumberproject/src/test/resources/features/array.feature:63)
+</pre></div></td>
+<td>6</td>
+<td>testrunner.runner@4c2bb6e0</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,114 +101,44 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario with different set of data", "Register feature with ExcelSheet Handling"</td>
-<td></td>
-<td>2</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Graph page with wrong python code", "Graph Feature"</td>
-<td></td>
-<td>1</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario with different set of data", "Register feature with ExcelSheet Handling"</td>
-<td></td>
-<td>2</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User clicks on Register link in home page", "Homepage feature"</td>
-<td></td>
-<td>0</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Graph Representation page", "Graph Feature"</td>
-<td></td>
-<td>2</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate signin page with invalid credentials", "Signin feature"</td>
-<td></td>
-<td>3</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Get Started button of one module without sign in", "Homepage feature"</td>
-<td></td>
-<td>8</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario with different set of data", "Register feature with ExcelSheet Handling"</td>
-<td></td>
-<td>3</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario with different set of data", "Register feature with ExcelSheet Handling"</td>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates Basic Operations in Lists page", "Array feature"</td>
 <td></td>
 <td>4</td>
 <td>testrunner.runner@4c2bb6e0</td></tr>
 <tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click Data Structures dropdown menu and select Arrays", "Homepage feature"</td>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate signin page with invalid credentials", "Signin feature"</td>
+<td></td>
+<td>9</td>
+<td>testrunner.runner@4c2bb6e0</td></tr>
+<tr>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate signin page with valid credentials", "Signin feature"</td>
+<td></td>
+<td>4</td>
+<td>testrunner.runner@4c2bb6e0</td></tr>
+<tr>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates Arrays in Python page", "Array feature"</td>
+<td></td>
+<td>6</td>
+<td>testrunner.runner@4c2bb6e0</td></tr>
+<tr>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates Applications of Array page", "Array feature"</td>
+<td></td>
+<td>4</td>
+<td>testrunner.runner@4c2bb6e0</td></tr>
+<tr>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates Arrays Using List page", "Array feature"</td>
+<td></td>
+<td>4</td>
+<td>testrunner.runner@4c2bb6e0</td></tr>
+<tr>
+<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates Practice Questions page", "Array feature"</td>
 <td></td>
 <td>0</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Graph Representation page with wrong python code", "Graph Feature"</td>
-<td></td>
-<td>1</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate DataStructures-Introduction and Time Complexity page", "DataStructures Introduction"</td>
-<td></td>
-<td>5</td>
 <td>testrunner.runner@4c2bb6e0</td></tr>
 <tr>
 <td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate signin page with invalid credentials", "Signin feature"</td>
 <td></td>
 <td>3</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate signin page with valid credentials", "Signin feature"</td>
-<td></td>
-<td>3</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario with different set of data", "Register feature with ExcelSheet Handling"</td>
-<td></td>
-<td>3</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User clicks on Sign in link in home page", "Homepage feature"</td>
-<td></td>
-<td>0</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario with different set of data", "Register feature with ExcelSheet Handling"</td>
-<td></td>
-<td>3</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on home page and clicking on Data Structures dropdown menu", "Homepage feature"</td>
-<td></td>
-<td>1</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario handling with some empty textbox fields", "Register feature with ExcelSheet Handling"</td>
-<td></td>
-<td>2</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Graph page", "Graph Feature"</td>
-<td></td>
-<td>3</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register scenario handling with some empty textbox fields", "Register feature with ExcelSheet Handling"</td>
-<td></td>
-<td>2</td>
-<td>testrunner.runner@4c2bb6e0</td></tr>
-<tr>
-<td title='testrunner.runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Time Complexity page with wrong python code", "DataStructures Introduction"</td>
-<td></td>
-<td>2</td>
 <td>testrunner.runner@4c2bb6e0</td></tr>
 </table><p>
 </body>
